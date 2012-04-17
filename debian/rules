@@ -5,16 +5,5 @@ PREFIX=debian/python-graphite
 
 include /usr/share/python/python.mk
 
-build:
-    ./check-dependencies.py
-
-    # the usual
-    ./setup.py
-
-    # install
-    export PYTHONPATH=$PYTHONPATH:$GRAPHITE_ROOT/webapp
-    cd $GRAPHITE_ROOT/webapp/graphite/
-    sudo python manage.py syncdb
-
 %:
 	dh $@
