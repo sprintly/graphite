@@ -8,5 +8,5 @@ Homepage: https://github.com/tmm1/graphite
 
 Package: python-graphite
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5), python-django (>= 1.2.0), python-imaging, libjpeg62, mod_wsgi
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5), python-django (>= 1.2.0), python-imaging, libjpeg62, libapache2-mod-wsgi, pycairo, python-twisted
 Description: Graphite provides real-time visualization and storage of numeric time-series data on an enterprise level
