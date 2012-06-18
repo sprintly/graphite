@@ -1,4 +1,5 @@
 Source: python-graphite
+Version: 0.9.9-1
 Section: python
 Priority: extra
 Maintainer: Joe Stump <joe@joestump.net>
@@ -8,5 +9,5 @@ Homepage: https://github.com/tmm1/graphite
 
 Package: python-graphite
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5), python-django (>= 1.2.0), python-imaging, libjpeg62, libapache2-mod-wsgi, pycairo
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5), python-django (>= 1.2.0), python-imaging, libjpeg62, libapache2-mod-wsgi, python-cairo
 Description: Real-time visualization and storage of numeric time-series data
